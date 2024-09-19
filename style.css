@@ -1,0 +1,13 @@
+.header-main {
+  margin: 0px;
+  background: grey;
+}
+
+.header-main-logo {
+  margin: 0px;
+  display: flex;
+}
+
+.header-main-nav {
+  display: flex;
+}
