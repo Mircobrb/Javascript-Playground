@@ -1,0 +1,76 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1728755833852-2c138c84cfb1?q=80&w=1772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;;
+  text-align: center;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.container {
+  background: white;
+  max-width: 400px;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+h2 {
+  font-size: 50px;
+}
+
+
+#increment-btn {
+  background: #3c7fe4;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: fit-content;
+  border-radius: 4px;
+  border: none;
+}
+
+#increment-btn:hover {
+  background: #3c7fe4f0;
+}
+
+#decrease-btn {
+  background: rgb(120, 132, 135);
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: fit-content;
+  border-radius: 4px;
+  border: none;
+}
+
+#decrease-btn:hover {
+  background: rgba(120, 132, 135, 0.929);
+}
+
+
+#save-btn {
+  background: darkgreen;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+}
+#save-btn:hover {
+  background: rgba(0, 100, 0, 0.929);
+}

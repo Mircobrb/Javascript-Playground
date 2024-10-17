@@ -3,36 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TITLE</title>
+  <title>Document</title>
 
-  <!-- THIS ARE LINKS -->
-  <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-
-
 <body>
-  
-<header class="header-main">
-  <div class="header-main-logo">
-    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M10.83 5a3.001 3.001 0 0 0-5.66 0H4a1 1 0 1 0 0 2h1.17a3.001 3.001 0 0 0 5.66 0H20a1 1 0 1 0 0-2h-9.17ZM4 11h9.17a3.001 3.001 0 0 1 5.66 0H20a1 1 0 1 1 0 2h-1.17a3.001 3.001 0 0 1-5.66 0H4a1 1 0 1 1 0-2Zm1.17 6H4a1 1 0 1 0 0 2h1.17a3.001 3.001 0 0 0 5.66 0H20a1 1 0 1 0 0-2h-9.17a3.001 3.001 0 0 0-5.66 0Z"/>
-    </svg>
-    
-    <nav class="header-main-nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Suck this</a></li>
-      </ul>
-
-    </nav>
+  <div class="container">
+    <h1>Adventurers in the Dungeon</h1>
+    <div style="display: flex; gap: 16px; align-items: center; justify-content: center;">
+      <button id="decrease-btn" onclick="decrease()">
+        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14"/>
+      </svg>
+      </button>
+      <h2 id="count-el">0</h2>
+      <button id="increment-btn" onclick="increment()">
+        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7 7V5"/>
+        </svg>
+      </button>
+    </div>
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p id="save-el">The groups before you: </p>
   </div>
-</header>
 
 
 
-
-
+  <script src="index.js"></script>
+  
 </body>
 </html>
